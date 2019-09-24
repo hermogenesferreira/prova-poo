@@ -9,6 +9,6 @@ public class TestaFilme {
         f1.nome = "Rat race";
         f1.nota = 10;
         f1.dataDeLancamento = d1;
-        d1.imprimir();
+        System.out.println(d1.imprimir());
     }
 }
